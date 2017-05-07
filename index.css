@@ -1369,6 +1369,10 @@ left: 2px;
 	width: 90%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #loader{
 	margin-top:100%;
 }
@@ -1422,14 +1426,258 @@ a{
 }
 
 .wrapper{
-	position:absolute;
-	width:70%;
-	height: 150%;
-	background-color:#fff;
-	top: 10%;
-	left:18%;
-	overflow: hidden;
+	width:95%;
+	height:193%;
+	left:2%;
 }
 
+.box1{
+	position:absolute;
+	height: 80px;
+	width:390px;
+	margin-top: 450px;
+	margin-left: 0;
+}
+.box2{
+	position:relative;
+	height: 90px;
+	width:200px;
+	background-color: white;
+	overflow:hidden;
+	display:table;
+	margin-top: 1230px;
+}
+
+.box3{
+	position:absolute;
+	height: 90px;
+	width:200px;
+	background-color: transparent;
+	overflow:hidden;
+	display:table;
+	margin-top: 430px;
+	margin-left:0px;
+}
+
+.box4{
+	position:absolute;
+	height: 80px;
+	width:80%;
+	background-color: white;
+	overflow:hidden;
+	display:table;
+	margin-top: 5px;
+}
+
+.box5{
+	position:absolute;
+	height: 90px;
+	width:300px;
+	background-color: transparent;
+	overflow:hidden;
+	display:table;
+	margin-top: 1090px;
+	margin-left: 0px;
+}
+
+.box6{
+	position:absolute;
+	height: 90px;
+	width:500px;
+	margin-top: 710px;
+	margin-left:5px;
+}
+
+.box7{
+	position:absolute;
+	margin-top: 1350px;
+	margin-left:5px;
+}
+.box8{
+	position:absolute;
+	margin-top: 1730px;
+	margin-left:0px;
+}
+
+.img1{
+	position:absolute;
+	width: 70%;
+	height:5%;
+	margin-left: 0px;
+	background-size: 100% 100%;
+}
+.img2{
+	position:absolute;
+	width: 70%;
+	height:4%;
+	margin-left: 0px;
+	margin-top: 200px;
+	background-size: 100% 100%;
+}
+.img3{
+	position:absolute;
+	width: 70%;
+	height:4%;
+	margin-left: 0px;
+	margin-top: 325px;
+	background-size: 100% 100%;
+}
+.img4{
+	position:absolute;
+	width: 45%;
+	height:8%;
+	background-color:black;
+	margin-left: 0;
+	margin-top: 510px;
+	background-size: 100% 100%;
+}
+.img5{
+	position:absolute;
+	width: 45%;
+	height:8%;
+	background-color:black;
+	margin-left: 50%;
+	margin-top: 510px;
+	background-size: 100% 100%;
+}
+
+.img6{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 0px;
+	margin-top: 760px;
+	background-size: 200px 200px;
+}
+.img7{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 211px;
+	margin-top: 760px;
+	background-size: 300px 300px;
+	border: 1px solid grey;
+}
+.img8{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 0px;
+	margin-top: 970px;
+	background-size: 200px 200px;
+}
+.img9{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 212px;
+	margin-top: 970px;
+	background-size: 200px 200px;
+}
+.img10{
+	position:absolute;
+	width: 810px;
+	height: 200px;
+	background-color:black;
+	margin-left: 10px;
+	margin-top: 0px;
+	background-image: url(img/img10-1.jpg);
+	background-size: 810px 300px;
+}
+.img11{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 10px;
+	margin-top: 210px;
+	background-image: url(img/img11-1.jpg);
+	background-size: 200px 200px;
+	
+}
+.img12{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 212px;
+	margin-top: 210px;
+	background-image: url(img/img12-1.jpg);
+	background-size: 200px 200px;
+	
+}
+.img13{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 0px;
+	margin-top: 500px;
+	background-image: url(img/img13-1.jpg);
+	background-size: 200px 200px;
+}
+.img14{
+	position:absolute;
+	width: 200px;
+	height: 200px;
+	background-color:black;
+	margin-left: 50%;
+	margin-top: 500px;
+	background-image: url(img/img14-1.png);
+	background-size: 200px 200px;
+}
+.img15{
+	position:absolute;
+	width: 400px;
+	height: 290px;
+	background-color:black;
+	margin-left: 5px;
+	margin-top: 780px;
+	background-image: url(img/img15-1.jpg);
+	background-size: 400px 290px;
+}
+.img16{
+	position:absolute;
+	width: 372px;
+	height: 200px;
+	background-color:black;
+	margin-left: 0px;
+	margin-top: 1150px;
+	background-image: url(img/img16-1.jpg);
+	background-size: 372px 220px;
+}
+.img17{
+	position:absolute;
+	width: 400px;
+	height: 280px;
+	background-color:black;
+	margin-left: 0px;
+	margin-top: 1440px;
+	background-image: url(img/img17-1.jpg);
+	background-size: 400px 280px;
+}
+.img18{
+	position:absolute;
+	width: 400px;
+	height: 280px;
+	background-color:black;
+	margin-left: 0px;
+	margin-top: 1800px;
+	background-image: url(img/img18-1.jpg);
+	background-size: 400px 280px;
+}
+
+.copyrights{
+	position: relative;
+	top:190%;
+	left:25%;
+	font-family:"oswald";
+	font-size:10px;
+	color:grey;
+	width:50%;
+	text-align:center;
+}
 
 }

@@ -1,13 +1,16 @@
+
+
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 3000);
+    myVar = setTimeout(showPage, 2000);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+
 
 
 $("#slide > div:gt(0)").hide();
@@ -26,6 +29,9 @@ console.log("loaded");
 $('.arrow').click(function() {
    $('#slideshow').hide();
 });
+
+
+
 
 $(window).bind('scroll', function() {
      if ($(window).scrollTop() > 100) {
