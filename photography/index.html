@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Mitali Mehta</title>
-      <link href="typeface.css" media="all" rel="stylesheet" />
+      <link href="photography.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
      <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -18,8 +18,13 @@
     * {
       box-sizing: border-box;
     }
-    
-.slider {
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slider1 {
       position:relative;
         width: 50%;
         margin: 100px auto;
@@ -52,27 +57,53 @@
 </div>
  
 <div class="description">
-  I have designed my own typeface using HTML, CSS and jQuery and made a user interaction to show how typeface for the screen is different from printed page. It's called "Design" Your Thoughts as you can type whatever is on your mind and then design it using the tool bar. The tools available are background colors, fill colors, and fill texture. The colors apply to all if you click on it and each letter can be treated separately by dragging and dropping the available options.
-  <br>
-I have created ten different weights for the typeface and this can be adjusted through the scrollbar at the bottom of the window. They transition from the lightest to the boldest. The characters with the thickest weight appears first, when you start typing.
+ 
 <br>
 <br>
 <br>
-<div><a class="web" href="../../typeface/index.html" target="_blank">Visit Typeface Webpage</a></div>
 
 </div>
 
  
 <div class="wrapper">
-  <div class="img1"></div>
-    <div class="img2"></div>
-      <div class="img3"></div>
-        <div class="img4"></div>
-        <div class="img5"></div>
-      <div class="img6"></div>
-    <div class="img7"></div>
-  <div class="img8"></div>
-</div>
+  <section class="center slider">
+    <div>
+      <img src="img.jpg">
+    </div>
+    <div>
+      <img src="img2.jpg">
+    </div>
+    <div>
+      <img src="img3.jpg">
+    </div>
+    <div>
+      <img src="img4.jpg">
+    </div>
+    <div>
+      <img src="img5.jpg">
+    </div>
+    <div>
+      <img src="img6.JPG">
+    </div>
+    <div>
+      <img src="img7.jpg">
+    </div>
+    <div>
+      <img src="img8.JPG">
+    </div>
+    <div>
+      <img src="img9.jpg">
+    </div>
+    <div>
+      <img src="img10.JPG">
+    </div>
+  </section>
+
+  <div class="img8">
+    </div>
+  </div>
+
+      
     
 
 <div class="index">
@@ -140,7 +171,38 @@ I have created ten different weights for the typeface and this can be adjusted t
   <script type="text/javascript">
     $(document).on('ready', function() {
 
-      $(".center").slick({
+      $('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+        
+      
+    });
+
+    $(document).on('ready', function() {
+
+      $(".center1").slick({
         dots: true,
         infinite: true,
         centerMode: true,
