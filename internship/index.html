@@ -13,14 +13,22 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
+    <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
 
     * {
       box-sizing: border-box;
     }
-    
-.slider {
-      position:relative;
+
+    .slider1 {
+        max-width: 100%;
+        margin: 100px auto;
+    }
+
+    .slider {
         width: 50%;
         margin: 100px auto;
     }
@@ -37,8 +45,6 @@
     .slick-next:before {
         color: black;
     }
-
-    
   </style>
 </head>
 <body>
@@ -46,31 +52,55 @@
 
 <div class="header">
   <div class="name">MITALI MEHTA</div>
-  <div class="about"><a href="../about.html">ABOUT</a></div>
+  <div class="about"><a href="../about/about.html">ABOUT</a></div>
   <div class="art"><a href="../index.html"> WORK </a></div>
-  <div class="contact"><a href="../contact.html">CONTACT</a></div>
+  <div class="contact"><a href="../contact/contact.html">CONTACT</a></div>
 </div>
  
 <div class="description">
-The space that I selected was my dormitory lobby which is on 65 5th Avenue, New York. I thoroughly documented this site by photographing the different features present here before building it using HTML, CSS and jQuery. This is an abstract way of showing the interior layout and its functions. The cursor is The New School student ID card. The darker boxes are the classrooms on top and the street to the left. Hovering over changes the colors of the shapes and this provides an interactive element to the piece. The way the user navigates my website relates to the way one moves through this space.
+I interned at Jujan Markfin, a garment export house in summer 2016. It is one of the leading fashion houses with clients such as Zara, Next, El Corte, Forever 21 etc., creating garments with embroidery and sequin and exploring many other design techniques. 
+<br>
+I created a business profile for them by collating the information provided by them. I took all photographs of their garments and of a model wearing their samples. I created a layout for the profile that has been used on all the pages and the color palette changes from page to page.
+<br>
+Below are some of the other photographs taken by me of the workplace and the garments.
 
-<br>
-<br>
-<br>
-<div><a class="web" href="../../space/index.html" target="_blank">Visit Space Webpage</a></div>
+
 
 </div>
 
  
 <div class="wrapper">
-  <div class="img1"></div>
-    <div class="img2"></div>
-      <div class="img3"></div>
-        <div class="img4"></div>
-        <div class="img5"></div>
-      <div class="img6"></div>
-    <div class="img7"></div>
-  <div class="img8"></div>
+ <section class="slider1 single-item">
+    <div>
+      <img src="img9.jpg">
+    </div>
+    <div>
+      <img src="img2.jpg">
+    </div>
+    <div>
+      <img src="img3.jpg">
+    </div>
+    <div>
+      <img src="img4.jpg">
+    </div>
+    <div>
+      <img src="img5.jpg">
+    </div>
+    <div>
+      <img src="img6.jpg">
+    </div>
+    <div>
+      <img src="img7.jpg">
+    </div>
+    
+  </section>
+
+  <div class="img10"></div>
+  <div class="img11"></div>
+  <div class="img12"></div>
+  <div class="img13"></div>
+  <div class="img14"></div>
+
 </div>
     
 
@@ -137,7 +167,10 @@ The space that I selected was my dormitory lobby which is on 65 5th Avenue, New 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
+
     $(document).on('ready', function() {
+
+      $('.single-item').slick();
 
       $(".center").slick({
         dots: true,
@@ -147,7 +180,10 @@ The space that I selected was my dormitory lobby which is on 65 5th Avenue, New 
         slidesToScroll: 3
       });
 
+    
     });
+
+
   </script>
 
 </body>

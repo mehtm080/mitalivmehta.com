@@ -82,98 +82,66 @@ a.web {
 
 .wrapper{
 	position:relative;
-	top: 20%;
+	top: 18%;
 	left: 15%;
 	width: 70%;
-	height:180%;
+	height:260%;
 	background-color: #fff;
+
 }
 
-.img1{
+.img10{
 	position: absolute;
-	top:0;
-	left:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img1.png);
-	background-size: 426.6px 266.6px;
+	top:600px;
+	left:0%;
+	width: 508px;
+	height:341px;
+	background-image:url(img10.jpg);
+	background-size: 508px 339px;
 	background-repeat: no-repeat;
 }
 
-.img2{
-	position: absolute;
-	top:0;
-	right:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img2.png);
-	background-size: 426.6px 266.6px;
-	background-repeat: no-repeat;
-}
-
-.img3{
-	position: absolute;
-	top:300px;
-	left:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img3.png);
-	background-size: 426.6px 266.6px;
-	background-repeat: no-repeat;
-}
-
-.img4{
-	position: absolute;
-	top:300px;
-	right:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img4.png);
-	background-size: 426.6px 266.6px;
-	background-repeat: no-repeat;
-}
-
-.img5{
+.img11{
 	position: absolute;
 	top:600px;
 	right:0;
-	width: 512.5px;
-	height:93.5px;
-	background-image:url(img5.png);
-	background-size: 512.5px 93.5px;
+	width: 373px;
+	height:341px;
+	background-image:url(img11.jpg);
+	background-size: 373px 341px;
 	background-repeat: no-repeat;
 }
 
-.img6{
+.img12{
 	position: absolute;
-	top:600px;
-	left:0;
-	width: 128px;
-	height:362px;
-	background-image:url(img6.png);
-	background-size: 128px 362px;
+	top:961px;
+	left:0%;
+	width: 284px;
+	height:426px;
+	background-image:url(img12.jpg);
+	background-size: 284px 426px;
 	background-repeat: no-repeat;
 }
 
-.img7{
+.img13{
 	position: absolute;
-	top:600px;
-	left:150px;
-	width: 208px;
-	height:128.5px;
-	background-image:url(img7.png);
-	background-size: 208px 128.5px;
+	top:961px;
+	left:305px;
+	width: 285px;
+	height:426px;
+	background-image:url(img13.jpg);
+	background-size: 373px 426px;
 	background-repeat: no-repeat;
 }
 
-.img8{
+.img14{
 	position: absolute;
-	top:750px;
-	left:150px;
-	width: 242px;
-	height:91.5px;
-	background-image:url(img8.png);
-	background-size: 242px 91.5px;
+	top:961px;
+	left:610px;
+	width: 285px;
+	height:426px;
+	background-image:url(img14.jpg);
+	background-size: 373px 426px;
 	background-repeat: no-repeat;
 }
 

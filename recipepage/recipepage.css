@@ -82,10 +82,10 @@ a.web {
 
 .wrapper{
 	position:relative;
-	top: 20%;
+	top: 30%;
 	left: 15%;
 	width: 70%;
-	height:90%;
+	height:200%;
 	background-color: #fff;
 }
 
@@ -101,6 +101,17 @@ a.web {
 	border: solid black 2px;
 }
 
+.img2{
+	position: absolute;
+	top:0;
+	margin-left:15%;
+	width: 568.83px;
+	height: 748px;
+	background-image:url(img2.jpg);
+	background-size: 568.83px 748px;
+	background-repeat: no-repeat;
+	border: solid black 2px;
+}
 
 .index{
 	border-top:0px solid #adafb2 ;
