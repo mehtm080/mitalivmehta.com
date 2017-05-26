@@ -85,7 +85,7 @@ a.web {
 	top: 30%;
 	left: 15%;
 	width: 70%;
-	height:200%;
+	height:260%;
 	background-color: #fff;
 }
 
@@ -103,7 +103,7 @@ a.web {
 
 .img2{
 	position: absolute;
-	top:0;
+	top:800px;
 	margin-left:15%;
 	width: 568.83px;
 	height: 748px;
