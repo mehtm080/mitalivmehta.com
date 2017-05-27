@@ -85,7 +85,7 @@ a.web {
 	top: 20%;
 	left: 15%;
 	width: 70%;
-	height:220%;
+	height:260%;
 	background-color: #fff;
 }
 
@@ -93,87 +93,65 @@ a.web {
 	position: absolute;
 	top:0;
 	left:0;
-	width: 350px;
-	height:1139px;
+	width: 433px;
+	height:721.67px;
 	background-image:url(img1.jpg);
-	background-size: 350px 1139px;
+	background-size: 433px 721.67px;
 	background-repeat: no-repeat;
 }
 
 .img2{
 	position: absolute;
 	top:0;
-	right:0;
-	width: 512px;
-	height:290px;
+	left:459px;
+	width: 433px;
+	height:721.67px;
 	background-image:url(img2.jpg);
-	background-size: 512px 290px;
+	background-size: 433px 721.67px;
 	background-repeat: no-repeat;
 }
 
 .img3{
 	position: absolute;
-	top:300px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img3.png);
-	background-size: 511px 290px;
+	top:748px;
+	left:0;
+	width: 433px;
+	height:288.41px;
+	background-image:url(img3.jpg);
+	background-size: 433px 288.41px;
 	background-repeat: no-repeat;
 }
 
 .img4{
 	position: absolute;
-	top:600px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img4.png);
-	background-size: 511px 290px;
+	top:748px;
+	left:459px;
+	width: 433px;
+	height:288.67px;
+	background-image:url(img4.jpg);
+	background-size: 433px 288.67px;
 	background-repeat: no-repeat;
 }
 
 .img5{
 	position: absolute;
-	top:900px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img5.png);
-	background-size: 511px 290px;
+	top:1063px;
+	left:0;
+	width: 433px;
+	height:288.41px;
+	background-image:url(img5.jpg);
+	background-size: 433px 288.41px;
 	background-repeat: no-repeat;
 }
 
 .img6{
 	position: absolute;
-	top:1200px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img6.png);
-	background-size: 511px 290px;
-	background-repeat: no-repeat;
-}
-
-.img7{
-	position: absolute;
-	top:1185px;
-	left:0;
-	width: 350px;
-	height:41px;
-	background-image:url(img7.png);
-	background-size: 350px 41px;
-	background-repeat: no-repeat;
-}
-
-.img8{
-	position: absolute;
-	top:1255px;
-	left:0;
-	width: 140px;
-	height:420px;
-	background-image:url(img3.jpg);
-	background-size: 140px 420px;
+	top:1063px;
+	left: 459px;
+	width: 433px;
+	height:289.09px;
+	background-image:url(img6.jpg);
+	background-size: 433px 289.09px;
 	background-repeat: no-repeat;
 }
 

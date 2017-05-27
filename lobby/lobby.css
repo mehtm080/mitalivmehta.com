@@ -85,99 +85,53 @@ a.web {
 	top: 20%;
 	left: 15%;
 	width: 70%;
-	height:220%;
+	height:260%;
 	background-color: #fff;
 }
 
-.img1{
+.img16 {
 	position: absolute;
-	top:0;
-	left:0;
-	width: 350px;
-	height:1139px;
-	background-image:url(img1.jpg);
-	background-size: 350px 1139px;
+	top:800px;
+	left:0%;
+	width: 910px;
+	height: 237px;
+	background-image:url(img16.jpg);
+	background-size: 910px 237px;
 	background-repeat: no-repeat;
 }
 
-.img2{
+.img17 {
 	position: absolute;
-	top:0;
-	right:0;
-	width: 512px;
-	height:290px;
-	background-image:url(img2.jpg);
-	background-size: 512px 290px;
+	top:1063px;
+	left:0%;
+	width: 372px;
+	height: 279px;
+	background-image:url(img17.jpg);
+	background-size: 372px 279px;
 	background-repeat: no-repeat;
 }
 
-.img3{
+.img18 {
 	position: absolute;
-	top:300px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img3.png);
-	background-size: 511px 290px;
+	top:1063px;
+	left:396px;
+	width: 256.08px;
+	height: 279px;
+	background-image:url(img18.jpg);
+	background-size: 256.08px 279px;
 	background-repeat: no-repeat;
 }
 
-.img4{
+.img19 {
 	position: absolute;
-	top:600px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img4.png);
-	background-size: 511px 290px;
+	top:1063px;
+	left:676px;
+	width: 229px;
+	height: 279px;
+	background-image:url(img19.jpg);
+	background-size: 229px 279px;
 	background-repeat: no-repeat;
 }
-
-.img5{
-	position: absolute;
-	top:900px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img5.png);
-	background-size: 511px 290px;
-	background-repeat: no-repeat;
-}
-
-.img6{
-	position: absolute;
-	top:1200px;
-	right:0;
-	width: 511px;
-	height:290px;
-	background-image:url(img6.png);
-	background-size: 511px 290px;
-	background-repeat: no-repeat;
-}
-
-.img7{
-	position: absolute;
-	top:1185px;
-	left:0;
-	width: 350px;
-	height:41px;
-	background-image:url(img7.png);
-	background-size: 350px 41px;
-	background-repeat: no-repeat;
-}
-
-.img8{
-	position: absolute;
-	top:1255px;
-	left:0;
-	width: 140px;
-	height:420px;
-	background-image:url(img3.jpg);
-	background-size: 140px 420px;
-	background-repeat: no-repeat;
-}
-
-
 .index{
 	border-top:0px solid #adafb2 ;
 	position:relative;
