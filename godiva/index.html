@@ -18,8 +18,14 @@
     * {
       box-sizing: border-box;
     }
+
+    .slider1 {
+      top:1038px;
+        max-width: 70%;
+        margin: 100px auto;
+    }
     
-.slider {
+    .slider {
       position:relative;
         width: 50%;
         margin: 100px auto;
@@ -52,27 +58,66 @@
 </div>
  
 <div class="description">
-The space that I selected was my dormitory lobby which is on 65 5th Avenue, New York. I thoroughly documented this site by photographing the different features present here before building it using HTML, CSS and jQuery. This is an abstract way of showing the interior layout and its functions. The cursor is The New School student ID card. The darker boxes are the classrooms on top and the street to the left. Hovering over changes the colors of the shapes and this provides an interactive element to the piece. The way the user navigates my website relates to the way one moves through this space.
+In November 2016 I participated in the “Redesign the Godiva Experience” competition and worked with three others on this. My team was amongst one of the winning teams and we were awarded third place.
+<br>
+We were inspired by the age-old tradition of writing secret letters, messages and codes to communicate unique and special messages only to be understood by those who have the key to the code. The idea is to celebrate everyday luxuries in everyday moments. The Godiva “Notebox” delivers a personalized and unique gift telling your story, you can indulge in and elevate your everyday moments, and save and share memories with a reusable and sustainable gift box.
+<br>
+There will be a digital interface placed on tablets in stores. On this the customer can select a theme, then chose the truffles they want and decide on a code index. Once the customer has gifted the box to their loved one then he/she can gain access to the code by scanning the QR code from the Godiva website. 
+<br>
+The packaging is designed in a way that each chocolate unfolds the message in order. The compartment strip is made from PLA, a biodegradable material and the outer box is made from tin that provides a long product life.
 
-<br>
-<br>
-<br>
-<div><a class="web" href="../../space/index.html" target="_blank">Visit Space Webpage</a></div>
 
 </div>
 
  
 <div class="wrapper">
+
   <div class="img1"></div>
-    <div class="img2"></div>
-      <div class="img3"></div>
-        <div class="img4"></div>
-        <div class="img5"></div>
-      <div class="img6"></div>
-    <div class="img7"></div>
-  <div class="img8"></div>
-</div>
+  <div class="img2"></div>
+  <div class="img3"></div>
+  <div class="img16"></div>
+  
+ <section class="slider1 single-item">
+    <div>
+      <img src="img4.png">
+    </div>
+    <div>
+      <img src="img5.png">
+    </div>
+    <div>
+      <img src="img6.png">
+    </div>
+    <div>
+      <img src="img7.png">
+    </div>
+    <div>
+      <img src="img8.png">
+    </div>
+    <div>
+      <img src="img9.png">
+    </div>
+    <div>
+      <img src="img10.png">
+    </div>
+     <div>
+      <img src="img11.png">
+    </div>
+     <div>
+      <img src="img12.png">
+    </div>
+     <div>
+      <img src="img13.png">
+    </div>
+    <div>
+      <img src="img14.png">
+    </div>
+    <div>
+      <img src="img15.png">
+    </div>
     
+  </section>
+
+</div>
 
 <div class="index">
   <section class="center slider">
@@ -138,6 +183,8 @@ The space that I selected was my dormitory lobby which is on 65 5th Avenue, New 
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
     $(document).on('ready', function() {
+
+       $('.single-item').slick();
 
       $(".center").slick({
         dots: true,

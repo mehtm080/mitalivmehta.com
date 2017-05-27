@@ -85,7 +85,7 @@ a.web {
 	top: 20%;
 	left: 15%;
 	width: 70%;
-	height:180%;
+	height:260%;
 	background-color: #fff;
 }
 
@@ -93,97 +93,44 @@ a.web {
 	position: absolute;
 	top:0;
 	left:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img1.png);
-	background-size: 426.6px 266.6px;
+	width: 433px;
+	height: 577.55px;
+	background-image:url(img1.jpg);
+	background-size: 433px 577.55px;
 	background-repeat: no-repeat;
 }
 
 .img2{
 	position: absolute;
 	top:0;
-	right:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img2.png);
-	background-size: 426.6px 266.6px;
+	left: 459px;
+	width: 433px;
+	height: 577.57px;
+	background-image:url(img2.jpg);
+	background-size: 433px 577.57px;
 	background-repeat: no-repeat;
 }
 
 .img3{
 	position: absolute;
-	top:300px;
+	top:604px;
 	left:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img3.png);
-	background-size: 426.6px 266.6px;
+	width: 433px;
+	height: 324.51px;
+	background-image:url(img3.jpg);
+	background-size: 433px 324.51px;
 	background-repeat: no-repeat;
 }
 
-.img4{
+.img16{
 	position: absolute;
-	top:300px;
-	right:0;
-	width: 426.6px;
-	height:266.6px;
-	background-image:url(img4.png);
-	background-size: 426.6px 266.6px;
+	top:604px;
+	left: 459px;
+	width: 433px;
+	height: 324.05px;
+	background-image:url(img16.jpg);
+	background-size: 433px 324.05px;
 	background-repeat: no-repeat;
-}
-
-.img5{
-	position: absolute;
-	top:600px;
-	right:0;
-	width: 512.5px;
-	height:93.5px;
-	background-image:url(img5.png);
-	background-size: 512.5px 93.5px;
-	background-repeat: no-repeat;
-}
-
-.img6{
-	position: absolute;
-	top:600px;
-	left:0;
-	width: 128px;
-	height:362px;
-	background-image:url(img6.png);
-	background-size: 128px 362px;
-	background-repeat: no-repeat;
-}
-
-.img7{
-	position: absolute;
-	top:600px;
-	left:150px;
-	width: 208px;
-	height:128.5px;
-	background-image:url(img7.png);
-	background-size: 208px 128.5px;
-	background-repeat: no-repeat;
-}
-
-.img8{
-	position: absolute;
-	top:750px;
-	left:150px;
-	width: 242px;
-	height:91.5px;
-	background-image:url(img8.png);
-	background-size: 242px 91.5px;
-	background-repeat: no-repeat;
-}
-
-.index{
-	border-top:0px solid #adafb2 ;
-	position:relative;
-	top: 20%;
-	border-top-style: dotted;
-	background-color: #fafafa;
-	height:300px;
 }
 
 .copyrights{
