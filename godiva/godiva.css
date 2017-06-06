@@ -122,15 +122,13 @@ a.web {
 	background-repeat: no-repeat;
 }
 
-.img16{
-	position: absolute;
-	top:604px;
-	left: 459px;
-	width: 433px;
-	height: 324.05px;
-	background-image:url(img16.jpg);
-	background-size: 433px 324.05px;
-	background-repeat: no-repeat;
+.index{
+	border-top:0px solid #adafb2 ;
+	position:relative;
+	top: 20%;
+	border-top-style: dotted;
+	background-color: #fafafa;
+	height:300px;
 }
 
 .copyrights{

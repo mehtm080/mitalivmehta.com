@@ -85,36 +85,14 @@ a.web {
 	top: 18%;
 	left: 15%;
 	width: 70%;
-	height:260%;
+	height:380%;
 	background-color: #fff;
 
 }
 
-.img10{
-	position: absolute;
-	top:600px;
-	left:0%;
-	width: 508px;
-	height:341px;
-	background-image:url(img10.jpg);
-	background-size: 508px 339px;
-	background-repeat: no-repeat;
-}
-
-.img11{
-	position: absolute;
-	top:600px;
-	left:520px;
-	width: 373px;
-	height:341px;
-	background-image:url(img11.jpg);
-	background-size: 373px 341px;
-	background-repeat: no-repeat;
-}
-
 .img12{
 	position: absolute;
-	top:961px;
+	top:600px;
 	left:0%;
 	width: 284px;
 	height:426px;
@@ -125,7 +103,7 @@ a.web {
 
 .img13{
 	position: absolute;
-	top:961px;
+	top:600px;
 	left:305px;
 	width: 285px;
 	height:426px;
@@ -136,12 +114,34 @@ a.web {
 
 .img14{
 	position: absolute;
-	top:961px;
+	top:600px;
 	left:610px;
 	width: 285px;
 	height:426px;
 	background-image:url(img14.jpg);
 	background-size: 373px 426px;
+	background-repeat: no-repeat;
+}
+
+.img15{
+	position: absolute;
+	top:1038px;
+	left:0%;
+	width: 893px;
+	height: 651.25px;
+	background-image:url(img15.jpg);
+	background-size: 893px 651.25px;
+	background-repeat: no-repeat;
+}
+
+.img16{
+	position: absolute;
+	top:1701px;
+	left:0px;
+	width: 893px;
+	height: 651.25px;
+	background-image:url(img16.jpg);
+	background-size: 893px 651.25px;
 	background-repeat: no-repeat;
 }
 
