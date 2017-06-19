@@ -91,6 +91,15 @@ a{
 	display:inline-block;
 }
 
+#img3{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:90%;
+	left:16%;
+	display:inline-block;
+}
+
 .copyrights{
 	position: relative;
 	top:100%;
