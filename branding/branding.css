@@ -85,7 +85,7 @@ a.web {
 	top: 30%;
 	left: 15%;
 	width: 70%;
-	height:220%;
+	height:270%;
 	background-color: #fff;
 }
 
@@ -97,6 +97,28 @@ a.web {
 	height:525px;
 	background-image:url(img8.jpg);
 	background-size: 375px 525px;
+	background-repeat: no-repeat;
+}
+
+.img9{
+	position: absolute;
+	top:1225px;
+	left:0;
+	width: 439px;
+	height: 292px;
+	background-image:url(img9.jpg);
+	background-size: 439px 292px;
+	background-repeat: no-repeat;
+}
+
+.img10{
+	position: absolute;
+	top:1225px;
+	left:450px;
+	width: 439px;
+	height: 292px;
+	background-image:url(img10.jpg);
+	background-size: 439px 292px;
 	background-repeat: no-repeat;
 }
 
