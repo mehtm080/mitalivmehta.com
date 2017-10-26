@@ -83,102 +83,177 @@ a.web {
 .wrapper{
 	position:relative;
 	top: 20%;
-	left: 15%;
-	width: 70%;
-	height:220%;
-	background-color: #fff;
+	left: 5%;
+	width: 90%;
+	height:170%;
+	background-color: transparent;
 }
 
 .img1{
 	position: absolute;
 	top:0;
 	left:0;
-	width: 400px;
-	height:600px;
+	width: 370px;
+	height:277.5px;
 	background-image:url(img1.jpg);
-	background-size: 400px 600px;
+	background-size: 370px 277.5px;
 	background-repeat: no-repeat;
 }
 
 .img2{
 	position: absolute;
 	top:0;
-	right:0;
-	width: 400px;
-	height:600px;
+	left:380px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img2.jpg);
-	background-size: 400px 600px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 .img3{
 	position: absolute;
-	top:630px;
-	left:0;
-	width: 395.5px;
-	height:288px;
+	top:0px;
+	left:760px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img3.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 .img4{
 	position: absolute;
-	top:630px;
-	right:0;
-	width: 395.5px;
-	height:288px;
+	top:287.31px;
+	left:0;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img4.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 .img5{
 	position: absolute;
-	top:948px;
-	left:0;
-	width: 395.5px;
-	height:288px;
+	top:287.31px;
+	left:380px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img5.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 .img6{
 	position: absolute;
-	top:948px;
-	right:0;
-	width: 395.5px;
-	height:288px;
+	top:287.31px;
+	left:760px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img6.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 
 .img7{
 	position: absolute;
-	top:1266px;
+	top:574.62px;
 	left:0;
-	width: 395.5px;
-	height:288px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img7.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
 .img8{
 	position: absolute;
-	top:1266px;
-	right:0;
-	width: 395.5px;
-	height:288px;
+	top:574.62px;
+	left:380px;
+	width: 370px;
+	height:277.31px;
 	background-image:url(img8.jpg);
-	background-size: 395.5px 288px;
+	background-size: 370px 277.31px;
 	background-repeat: no-repeat;
 }
 
+.img9{
+	position: absolute;
+	top:574.62px;
+	left:760px;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img9.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
 
+.img10{
+	position: absolute;
+	top:861.93px;
+	left:0;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img10.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
+
+.img11{
+	position: absolute;
+	top:861.93px;
+	left:380px;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img11.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
+
+.img12{
+	position: absolute;
+	top:861.93px;
+	left:760px;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img12.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
+
+.img13{
+	position: absolute;
+	top:1149.24px;
+	left:0;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img13.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
+
+.img14{
+	position: absolute;
+	top:1149.24px;
+	left:380px;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img14.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
+
+.img15{
+	position: absolute;
+	top:1149.24px;
+	left:760px;
+	width: 370px;
+	height:277.31px;
+	background-image:url(img15.jpg);
+	background-size: 370px 277.31px;
+	background-repeat: no-repeat;
+}
 .index{
 	border-top:0px solid #adafb2 ;
 	position:relative;
