@@ -85,7 +85,7 @@ a.web {
 	top: 20%;
 	left: 15%;
 	width: 70%;
-	height:220%;
+	height:230%;
 	background-color: #fff;
 }
 
@@ -115,49 +115,27 @@ a.web {
 .img3{
 	position: absolute;
 	top:682px;
-	left:0;
-	width: 433px;
-	height:553.09px;
+	left:110px;
+	width: 631px;
+	height:841px;
 	background-image:url(img3.jpg);
-	background-size: 433px 553.09px;
+	background-size: 631px 841px;
 	background-repeat: no-repeat;
 }
 
 
 .img4{
 	position: absolute;
-	top:682px;
-	left:443px;
-	width: 433px;
-	height:553.09px;
+	top:1533px;
+	left:110px;
+	width: 631px;
+	height:464.78px;
 	background-image:url(img4.jpg);
-	background-size: 433px 553.09px;
+	background-size: 631px 464.78px;
 	background-repeat: no-repeat;
 }
 
 
-.img5{
-	position: absolute;
-	top:1247px;
-	left:0;
-	width: 433px;
-	height: 289.62px;
-	background-image:url(img5.jpg);
-	background-size: 434px 289.62px;
-	background-repeat: no-repeat;
-}
-
-
-.img6{
-	position: absolute;
-	top:1247px;
-	left:443px;
-	width: 433px;
-	height: 289.62px;
-	background-image:url(img6.jpg);
-	background-size: 434px 289.62px;
-	background-repeat: no-repeat;
-}
 
 .index{
 	border-top:0px solid #adafb2 ;

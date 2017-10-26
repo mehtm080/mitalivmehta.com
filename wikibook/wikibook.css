@@ -85,76 +85,64 @@ a.web {
 	top: 20%;
 	left: 15%;
 	width: 70%;
-	height:260%;
+	height:180%;
 	background-color: #fff;
 }
 
-.img1{
+.img7{
 	position: absolute;
 	top:0;
+	left:172px;
+	width: 521px;
+	height:345px;
+	background-image:url(img7.jpg);
+	background-size: 521px 345px;
+	background-repeat: no-repeat;
+}
+
+.img8{
+	position: absolute;
+	top:377px;
 	left:0;
-	width: 433px;
-	height:721.67px;
-	background-image:url(img1.jpg);
-	background-size: 433px 721.67px;
+	width: 407px;
+	height:271.16px;
+	background-image:url(img8.jpg);
+	background-size: 407px 271.16px;
 	background-repeat: no-repeat;
 }
 
-.img2{
+.img9{
 	position: absolute;
-	top:0;
-	left:459px;
-	width: 433px;
-	height:721.67px;
-	background-image:url(img2.jpg);
-	background-size: 433px 721.67px;
+	top:377px;
+	left:440px;
+	width: 407px;
+	height:271.16px;
+	background-image:url(img9.jpg);
+	background-size: 407px 271.16px;
 	background-repeat: no-repeat;
 }
 
-.img3{
+.img10{
 	position: absolute;
-	top:748px;
-	left:0;
-	width: 433px;
-	height:288.41px;
-	background-image:url(img3.jpg);
-	background-size: 433px 288.41px;
+	top:680px;
+	left:0px;
+	width: 407px;
+	height:271.16px;
+	background-image:url(img10.jpg);
+	background-size: 407px 271.16px;
 	background-repeat: no-repeat;
 }
 
-.img4{
+.img11{
 	position: absolute;
-	top:748px;
-	left:459px;
-	width: 433px;
-	height:288.67px;
-	background-image:url(img4.jpg);
-	background-size: 433px 288.67px;
+	top:680px;
+	left:440px;
+	width: 407px;
+	height:271.16px;
+	background-image:url(img11.jpg);
+	background-size: 407px 271.16px;
 	background-repeat: no-repeat;
 }
-
-.img5{
-	position: absolute;
-	top:1063px;
-	left:0;
-	width: 433px;
-	height:288.41px;
-	background-image:url(img5.jpg);
-	background-size: 433px 288.41px;
-	background-repeat: no-repeat;
-}
-
-.img6{
-	position: absolute;
-	top:1063px;
-	left: 459px;
-	width: 433px;
-	height:289.09px;
-	background-image:url(img6.jpg);
-	background-size: 433px 289.09px;
-	background-repeat: no-repeat;
-}
-
 
 .index{
 	border-top:0px solid #adafb2 ;

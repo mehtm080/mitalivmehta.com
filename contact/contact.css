@@ -100,6 +100,15 @@ a{
 	display:inline-block;
 }
 
+#img4{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:90%;
+	left:24%;
+	display:inline-block;
+}
+
 .copyrights{
 	position: relative;
 	top:80%;
