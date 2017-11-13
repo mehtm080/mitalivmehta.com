@@ -65,7 +65,7 @@ a{
 
 .web{
 	position:relative;
-	font-size:15px;
+	font-size:30px;
 	font-family: "Oswald", helvetica, arial;
 	text-align:center;
 	color:black;
@@ -73,7 +73,7 @@ a{
 
 a.web { 
 	position:relative;
-	font-size:15px;
+	font-size:30px;
 	font-family: "Oswald", helvetica, arial;
 	text-align:center;
 	color:black;
