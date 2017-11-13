@@ -156,3 +156,142 @@ a.web {
 	width:20%;
 	text-align:center;
 }
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+.body {
+	width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header{
+	position:absolute;
+	width:100%;
+	height:150px;
+	background-color: black;
+	font-family: "oswald";
+	font-style: bold;
+	top:0px;
+	left:0;
+}
+
+.name{
+	position:absolute;
+	top:20%;
+	left:5%;
+	width:90%;
+	font-size: 50px;
+	text-align:center;
+	color:white;
+}
+
+.about{
+	top:70%;
+	left:20%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.art{
+	top:70%;
+	left:40%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.contact{
+	top:70%;
+	left:60%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.description{
+	position: relative;
+	top: 30%;
+	left:25%;
+	width:50%;
+	height:auto;
+	color:black;
+	font-size:15px;
+	font-family: "Oswald", helvetica, arial;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper{
+	position:relative;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+
+}
+
+.img1{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 433px;
+	height:672px;
+	background-image:url(img1.jpg);
+	background-size: 433px 672px;
+	background-repeat: no-repeat;
+}
+
+.img2{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 433px;
+	height:672px;
+	background-image:url(img2.jpg);
+	background-size: 433px 672px;
+	background-repeat: no-repeat;
+}
+
+
+.img3{
+	position: absolute;
+	top:682px;
+	left:-100px;
+	width: 631px;
+	height:841px;
+	background-image:url(img3.jpg);
+	background-size: 631px 841px;
+	background-repeat: no-repeat;
+}
+
+
+.img4{
+	position: absolute;
+	top:1533px;
+	left:110px;
+	width: 631px;
+	height:464.78px;
+	background-image:url(img4.jpg);
+	background-size: 631px 464.78px;
+	background-repeat: no-repeat;
+}
+
+
+
+.index{
+	visibility:hidden;
+}
+
+
