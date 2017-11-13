@@ -120,3 +120,93 @@ a{
 	height:100px;
 	text-align:center;
 }
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+.body {
+	width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header{
+	position:absolute;
+	width:100%;
+	height:150px;
+	background-color: black;
+	font-family: "oswald";
+	font-style: bold;
+	top:0px;
+	left:0;
+}
+
+.name{
+	position:absolute;
+	top:20%;
+	left:5%;
+	width:90%;
+	font-size: 50px;
+	text-align:center;
+	color:white;
+}
+
+.about{
+	top:70%;
+	left:20%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.art{
+	top:70%;
+	left:40%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.contact{
+	top:70%;
+	left:60%;
+	display:inline-block;
+	text-align:center;
+	width:10%;
+	font-size: 20px;
+}
+
+.description{
+	position: relative;
+	top: 30%;
+	left:25%;
+	width:50%;
+	height:auto;
+	color:black;
+	font-size:15px;
+	font-family: "Oswald", helvetica, arial;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper{
+	position:relative;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+
+}
+
+.index{
+	visibility:hidden;
+}
+
